@@ -1,6 +1,6 @@
 # ⚽ FM StatHub
 
-A Football Manager scouting report analyzer built with C# (.NET 8).  
+A Football Manager scouting report analyzer built with C# (.NET 10).  
 Parses HTML exports from Football Manager, calculates composite role scores,  
 and exports results to CSV for further analysis.
 
@@ -18,7 +18,7 @@ and exports results to CSV for further analysis.
 
 ## 🛠️ Tech Stack
 
-- C# / .NET 8
+- C# / .NET 10
 - HtmlAgilityPack (HTML parsing)
 - LINQ (data querying & sorting)
 - File I/O (CSV export, logging)
@@ -53,7 +53,7 @@ dotnet run
 
 **3. Enter the path to your HTML file**
 ```
-Δώσε το path του scouting report: C:\FMData\scouting_report.html
+Write the path to your scouting report: C:\FMData\scouting_report.html
 ```
 
 **4. View rankings and optionally export to CSV**
@@ -96,6 +96,6 @@ dotnet run
 
 ## 👤 Author
 
-Panagiotis — Career changer from Military Logistics to Software Development.  
+Panagiotis Vangelatos — Career changer from Military Logistics to Software Development.  
 Built as part of a C# learning portfolio.
 
