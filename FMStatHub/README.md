@@ -98,31 +98,4 @@ dotnet run
 
 Panagiotis — Career changer from Military Logistics to Software Development.  
 Built as part of a C# learning portfolio.
-```
 
----
-
-### 10β — Δημιουργία `.gitignore`
-
-Δεν θέλουμε να ανεβάσουμε περιττά αρχεία (compiled binaries, temp files κλπ.).
-
-1. **Δεξί κλικ** στο project → **Add → New Item → Text File**
-2. Όνομα: `.gitignore`
-
-Περιεχόμενο:
-```
-# Build output
-bin/
-obj/
-
-# Visual Studio
-.vs/
-*.user
-*.suo
-
-# Log files
-*.txt
-
-# OS
-.DS_Store
-Thumbs.db
